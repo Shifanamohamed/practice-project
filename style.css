@@ -1,0 +1,85 @@
+html,
+body{
+    text-align: center;
+    height: 100%;
+}
+body{
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(227, 137, 184);
+}
+#heading{
+    color: black;
+    font-size: 38px;
+    font-family: 'poppins' sans-serif;
+}
+
+#container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 450px ;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.775);
+    border-radius: 20px;
+}
+
+#container div{
+    margin: 1px 8px;
+}
+
+.draw-container{
+    display: flex;
+    margin: 8;
+}
+
+.draw-container div .player1{
+   margin: 30px 40px;
+   font-size: 38px;
+}
+
+#result{
+   font-size: 30px;
+   font-weight: bold;
+   color: rgb(165, 169, 169);
+}
+
+button{
+   font-size: 20px;
+   border-radius: 3px;
+   margin: 0 25px;
+   border: none;
+   font-size: 10px;
+   font-style: italic;
+   padding: 10px;
+
+}
+
+#strt-btn{
+    background-color: rgb(17, 17, 17);
+}
+
+#rest-btn{
+    background-color: rgb(223, 122, 174);
+}
+
+.player{
+    padding: 4px;
+    border-radius: 3px;
+    background-color: rgb(209, 224, 236);
+}
+#strt-btn:hover,
+#rest-btn{
+    cursor: pointer;
+}
+
+.output{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(145, 143, 144);
+}
